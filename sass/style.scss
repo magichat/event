@@ -1,0 +1,6 @@
+$col: red;
+
+body {
+    background: $col;
+    border: 4px solid darken($col, 10);
+}

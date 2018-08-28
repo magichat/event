@@ -1,6 +1,3 @@
-$col: red;
+@import "lib/normalize.css";
 
-body {
-    background: $col;
-    border: 4px solid darken($col, 10);
-}
+@import "fallback/gridFallback","grid";
